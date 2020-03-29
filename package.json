@@ -1,0 +1,22 @@
+{
+  "name": "rollup-noderesolve-issue",
+  "version": "1.0.0",
+  "description": "minimal bug repro for node-resolve and preserveModules interaction",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c"
+  },
+  "keywords": [
+    "rollup",
+    "node-resolve",
+    "preserveModules",
+    "bug"
+  ],
+  "author": "ObiWan",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "redom": "^3.26.0",
+    "rollup": "^2.1.0"
+  }
+}
